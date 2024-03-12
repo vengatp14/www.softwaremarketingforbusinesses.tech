@@ -76,7 +76,7 @@ svg{
   .sticky-icon  {
 	z-index:1;
 	position:fixed;
-	top:15%;
+	top:30%;
 	right:0%;
 	width:220px;
 	display:flex;
