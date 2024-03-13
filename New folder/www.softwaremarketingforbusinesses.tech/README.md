@@ -1,2 +1,0 @@
-# softwaremarketingforbusinesses.tech
-So
