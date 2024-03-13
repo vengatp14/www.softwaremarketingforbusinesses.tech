@@ -40,7 +40,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center bg_nav header-transparent">
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
@@ -83,10 +83,10 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <!-- <section id="hero" class="d-flex justify-cntent-center align-items-center">
+  <section id="hero" class="d-flex justify-cntent-center align-items-center">
     <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
-      
+      <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Moderna</span></h2>
@@ -95,7 +95,7 @@
         </div>
       </div>
 
-    
+      <!-- Slide 2 -->
       <div class="carousel-item">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
@@ -104,7 +104,7 @@
         </div>
       </div>
 
-   
+      <!-- Slide 3 -->
       <div class="carousel-item">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
@@ -122,40 +122,7 @@
       </a>
 
     </div>
-  </section> -->
-
-<div class="container-fluid overflow_x">
-  <div class="row">
-    <div class="col-lg-12">
-      <canvas id="canvas"></canvas>
-
-      <!-- SVG Goo filter from: https://css-tricks.com/gooey-effect/ -->
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <defs>
-          <filter id="shadowed-goo">
-    
-            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-            <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
-            <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2"
-              result="shadow" />
-            <feOffset in="shadow" dx="1" dy="1" result="shadow" />
-            <feBlend in2="shadow" in="goo" result="goo" />
-            <feBlend in2="goo" in="SourceGraphic" result="mix" />
-          </filter>
-          <filter id="goo">
-            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-            <feBlend in2="goo" in="SourceGraphic" result="mix" />
-          </filter>
-        </defs>
-      </svg>
-    </div>
-  </div>
-</div>
-
-  
-  <!-- End Hero -->
+  </section><!-- End Hero -->
 
   <main id="main">
 
